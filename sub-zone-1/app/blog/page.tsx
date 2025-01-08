@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useEffect } from "react";
+import { Button } from "smart-ui-custom";
 
 export default function Blog() {
   useEffect(() => {
@@ -18,6 +19,7 @@ export default function Blog() {
   return (
     <div>
       <h3>This is our blog</h3>
+      <Button label="text"></Button>
       <ul>
         <li>
           <Link href="/blog/post/1">Post 1</Link>
