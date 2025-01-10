@@ -8,6 +8,17 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    // Personaliza los fondos disponibles
+    backgrounds: {
+      default: "light",
+      values: [
+        { name: "light", value: "#ffffff" },
+        { name: "dark", value: "#000000" },
+        { name: "custom", value: "#f4f4f4" },
+      ],
+    },
+    // Agrega decoradores globales si necesitas envolturas alrededor de las historias
+    layout: "centered", // Centra los componentes por defecto
   },
 };
 
